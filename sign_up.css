@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(247, 248, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    margin-top: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    height: 500px;
+    width: 400px;
+    border-radius: 40px;
+    padding: 40px,80px,40px,80px;
+    gap: 32px;
+}
+.heading{
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f{
+   margin-left: 80px;
+   font-weight: 400;
+   color: rgba(75, 87, 104, 1);
+}
+.t{
+    border-radius: 6px;
+    border: 1px solid rgba(231, 234, 238, 1);
+    background-color:rgba(231, 234, 238, 1);
+    color: rgba(25, 29, 35, 1);
+    margin-left: 80px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.button_container{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.first_button{
+    width: 250px;
+    height: 35px;
+    border-radius: 35px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    border: 1px solid rgba(231, 234, 238, 1);
+    background-color: rgba(16, 185, 129, 1);
+}
+.first_button:hover{
+    background-color: rgb(16, 185, 41);;
+}
+.or{
+    margin-top: 10px;
+    margin-left: 115px;
+    font-weight: 600;
+    size: 16px;
+}
+.second_button{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 35px;
+    font-weight: 600;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(231, 234, 238, 1);
+    background-color: rgba(25, 29, 35, 1);
+}
+.second_button:hover{
+    background-color: rgb(164, 164, 164);
+}
+.icon{
+    height: 16px;
+    width: 16px;
+    top: 5px;
+}
+.text{
+    margin-left: 110px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(25, 29, 35, 1);
+    gap: 0;
+}
+.login{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(16, 185, 129, 1);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding-left: 5px;
+}
